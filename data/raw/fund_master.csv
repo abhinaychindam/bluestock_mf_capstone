@@ -1,0 +1,21 @@
+amfi_code,scheme_name,fund_house,category,sub_category,risk_grade,aum_cr,expense_ratio_pct,launch_date,benchmark
+125497,HDFC Top 100 Fund - Direct Plan - Growth,HDFC Mutual Fund,Equity,Large Cap,Moderately High,4917,0.63,2015-10-08,NIFTY 100 TRI
+119551,SBI Bluechip Fund - Direct Plan - Growth,SBI Mutual Fund,Equity,Large Cap,Moderately High,38810,1.13,2015-03-27,NIFTY 100 TRI
+120503,ICICI Pru Bluechip Fund - Direct Plan - Growth,ICICI Prudential MF,Equity,Large Cap,Moderately High,32901,0.88,2014-02-06,NIFTY 100 TRI
+118632,Nippon India Large Cap Fund - Direct Plan - Growth,Nippon India MF,Equity,Large Cap,Moderately High,22224,1.04,2015-11-26,NIFTY 100 TRI
+119092,Axis Bluechip Fund - Direct Plan - Growth,Axis Mutual Fund,Equity,Large Cap,Moderately High,21934,0.7,2014-03-26,NIFTY 100 TRI
+120841,Kotak Bluechip Fund - Direct Plan - Growth,Kotak Mahindra MF,Equity,Large Cap,Moderately High,43000,0.5,2013-12-23,NIFTY 100 TRI
+100033,Mirae Asset Large Cap Fund - Direct - Growth,Mirae Asset MF,Equity,Large Cap,High,4754,0.8,2015-09-19,NIFTY 100 TRI
+108467,DSP Top 100 Equity Fund - Direct Plan - Growth,DSP Mutual Fund,Equity,Large Cap,High,35019,0.36,2014-02-10,NIFTY 100 TRI
+112090,Franklin India Bluechip Fund - Direct - Growth,Franklin Templeton,Equity,Large Cap,Moderately High,10472,1.04,2013-03-25,NIFTY 100 TRI
+101539,UTI Mastershare - Direct Plan - Growth,UTI Mutual Fund,Equity,Large Cap,Moderately High,5161,0.87,2014-05-30,NIFTY 100 TRI
+130503,Parag Parikh Flexi Cap Fund - Direct - Growth,PPFAS MF,Equity,Flexi Cap,Moderately High,26560,0.98,2015-05-22,NIFTY 100 TRI
+101305,HDFC Mid-Cap Opportunities - Direct - Growth,HDFC Mutual Fund,Equity,Mid Cap,High,48793,0.62,2013-07-27,NIFTY 100 TRI
+100356,Nippon India Small Cap Fund - Direct - Growth,Nippon India MF,Equity,Small Cap,Very High,36919,1.17,2014-05-22,NIFTY 100 TRI
+103504,SBI Small Cap Fund - Direct Plan - Growth,SBI Mutual Fund,Equity,Small Cap,Very High,38176,1.1,2013-05-23,NIFTY 100 TRI
+107494,HDFC Balanced Advantage Fund - Direct - Growth,HDFC Mutual Fund,Hybrid,Dynamic Asset Allocation,Moderately High,36015,1.0,2015-01-22,NIFTY 500 TRI
+108005,ICICI Pru Equity & Debt Fund - Direct - Growth,ICICI Prudential MF,Hybrid,Aggressive Hybrid,Moderately High,39410,0.48,2014-06-05,NIFTY 500 TRI
+110478,SBI Magnum Gilt Fund - Direct Plan - Growth,SBI Mutual Fund,Debt,Gilt,Moderate,25904,0.72,2013-12-28,CRISIL Short Term Bond Index
+118701,HDFC Corporate Bond Fund - Direct - Growth,HDFC Mutual Fund,Debt,Corporate Bond,Moderate,6841,0.34,2013-09-06,CRISIL Short Term Bond Index
+119597,Axis Liquid Fund - Direct Plan - Growth,Axis Mutual Fund,Debt,Liquid,Low to Moderate,42067,0.44,2014-09-11,CRISIL Short Term Bond Index
+116230,HDFC Liquid Fund - Direct Plan - Growth,HDFC Mutual Fund,Debt,Liquid,Low to Moderate,22794,0.91,2015-01-04,CRISIL Short Term Bond Index
