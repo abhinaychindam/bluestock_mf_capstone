@@ -155,7 +155,7 @@ def validate_amfi_codes(fund_master: pd.DataFrame, nav_history: pd.DataFrame) ->
     if extra_in_nav:
         lines.append(f"  ⚠ Codes in NAV history NOT in master  : {extra_in_nav}")
     if not missing_in_nav and not extra_in_nav:
-        lines.append("  ✅ All AMFI codes validated — perfect 1-to-1 match")
+        lines.append("  All AMFI codes validated — perfect 1-to-1 match")
     lines.append("═"*70)
     summary = "\n".join(lines)
     print(summary)
@@ -235,7 +235,7 @@ def main() -> None:
                 print(f"    {a}")
                 total += 1
     if total == 0:
-        print("  ✅ No anomalies detected across all 10 datasets.")
+        print("  No anomalies detected across all 10 datasets.")
     print("═"*70)
     log.info("Data ingestion complete. %d datasets loaded.", len(dataframes))
 
