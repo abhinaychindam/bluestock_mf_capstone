@@ -2,6 +2,79 @@
 
 A full-stack data engineering and analytics project covering 20 mutual fund schemes across 5 years of NAV history. Includes ETL pipelines, SQLite database, EDA, performance analytics, and an interactive dashboard.
 
+# #Overview
+
+The Bluestock Mutual Fund Analytics Platform is a fintech-focused data analytics project designed to automate the collection, processing, analysis, and visualization of mutual fund data. The system follows an end-to-end data engineering and analytics workflow, transforming raw mutual fund datasets into actionable investment insights.
+
+The project demonstrates real-world financial analytics concepts including ETL pipelines, risk analysis, performance measurement, predictive modeling, portfolio analytics, and business intelligence dashboarding.
+
+# Project Objectives:
+
+Build an automated ETL pipeline for mutual fund datasets.
+Clean and standardize financial data from multiple sources.
+Store processed data in a structured database.
+Generate key mutual fund performance metrics.
+Perform risk and return analysis.
+Develop predictive models for NAV forecasting.
+Create interactive Power BI dashboards.
+Deliver actionable insights for investors and fund managers.
+
+
+**Key Features**
+# Data Engineering
+    Automated data ingestion pipeline
+    Data cleaning and validation
+    Schema standardization
+    Database integration
+    Incremental updates
+# Financial Analytics
+    CAGR Calculation
+    Annualized Returns
+    Volatility Analysis
+    Sharpe Ratio
+    Sortino Ratio
+    Maximum Drawdown
+    Rolling Returns
+    Risk-Adjusted Performance Metrics
+# Advanced Analytics
+    Historical VaR (Value at Risk)
+    Conditional VaR (CVaR)
+    Rolling Sharpe Analysis
+    Fund Ranking Engine
+    Category Performance Comparison
+    SIP Performance Analysis
+# Machine Learning
+    NAV Forecasting
+    Time Series Analysis
+    Trend Detection
+    Future Return Prediction
+# Business Intelligence
+    Interactive Power BI Dashboard
+    Fund Performance Monitoring
+    Risk Monitoring Dashboard
+    Portfolio Insights
+    Investor Reporting
+
+**Project Architecture**
+
+Raw Data Sources
+↓
+Data Ingestion
+↓
+Data Cleaning & Validation
+↓
+Feature Engineering
+↓
+Database Storage
+↓
+Analytics Engine
+↓
+Machine Learning Models
+↓
+Power BI Dashboard
+↓
+Investor Insights
+
 ## Project Structure
 
 ```
@@ -28,6 +101,68 @@ bluestock_mf_capstone/
 ├── dashboard/                 ← Power BI / Streamlit artifacts
 ├── reports/                   ← Final report PDF + PPTX
 └── requirements.txt
+
+
+**Dataset Description**
+
+# Fund Master Data
+
+Contains metadata for mutual funds including:
+
+Scheme Name
+AMC Name
+Category
+Fund House
+Launch Date
+NAV History
+
+Contains historical Net Asset Values:
+
+Date
+Scheme Code
+NAV
+Daily Return
+AUM Data
+
+Tracks Assets Under Management:
+
+Fund House
+AUM Value
+Reporting Period
+SIP Inflow Data
+
+Monthly SIP contribution statistics.
+
+Category Inflow Data
+
+Investment flow across fund categories.
+
+# Technology Stack
+Programming
+Python 3.11+
+
+Data Processing
+Pandas
+NumPy
+
+Visualization
+Matplotlib
+Seaborn
+Power BI
+
+Machine Learning
+Scikit-Learn
+Statsmodels
+
+Database
+SQLite
+
+Development
+Jupyter Notebook
+VS Code
+Git
+
+
 ```
 
 ## Quick Start
@@ -45,6 +180,10 @@ python scripts/live_nav_fetch.py
 
 # Full ETL + SQLite load
 python scripts/etl_pipeline.py
+
+## Execution
+python run_pipeline.py
+streamlit run app.py
 ```
 
 ## Data Sources
@@ -84,6 +223,66 @@ python scripts/etl_pipeline.py
 - ⚠️ AUM is in **₹ Crore** (column: `aum_cr`)
 - ⚠️ `.db` files are **not committed** — use `sql/schema.sql` to recreate
 
-## License
 
-MIT
+
+** Financial Metrics Computed**
+
+# Return Metrics
+Daily Return
+Monthly Return
+Annual Return
+CAGR
+
+# Risk Metrics
+Volatility
+Maximum Drawdown
+Value at Risk (VaR)
+Conditional VaR (CVaR)
+
+# Risk Adjusted Metrics
+Sharpe Ratio
+Sortino Ratio
+Calmar Ratio
+
+**Dashboard KPIs**
+
+# The Power BI dashboard tracks:
+
+Total Mutual Funds
+Average NAV
+Total AUM
+Best Performing Fund
+Worst Performing Fund
+SIP Trends
+Category-wise Performance
+Fund House Comparison
+Risk Distribution
+
+# Future Enhancements
+
+Real-time NAV Integration
+Portfolio Optimization
+Monte Carlo Simulation
+Markowitz Efficient Frontier
+Automated Email Reporting
+Streamlit Web Application
+Investor Recommendation Engine
+AI-powered Fund Ranking System
+
+# Business Impact
+
+This project demonstrates how financial institutions can leverage data analytics and machine learning to:
+
+Improve investment decision-making
+Monitor fund performance
+Assess investment risk
+Generate investor insights
+Automate reporting workflows
+
+## License
+**Author**
+@abhinaychindam
+
+Bluestock Fintech Mutual Fund Analytics Capstone Project
+
+Developed as an end-to-end financial data engineering, analytics, and visualization solution.

@@ -108,8 +108,13 @@ def parse_nav_records(amfi_code: int, data: dict, latest_only: bool = False) -> 
     if df.empty:
         log.warning("No NAV records for scheme %s", amfi_code)
         return df
-
-    df["nav_date"] = pd.to_datetime(df["date"], format="%d-%b-%Y", dayfirst=True)
+    
+    df["nav_date"] = pd.to_datetime(
+                    df["date"],
+                    format="mixed",
+                    dayfirst=True,
+                    errors="coerce"
+                        )
     df["nav"]      = pd.to_numeric(df["nav"], errors="coerce")
     df.drop(columns=["date"], inplace=True)
 

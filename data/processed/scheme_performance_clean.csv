@@ -1,0 +1,21 @@
+amfi_code,return_1y_pct,return_3y_cagr_pct,return_5y_cagr_pct,sharpe_ratio,annualised_volatility_pct,var_95_daily_pct,max_drawdown_pct,beta,expense_ratio_pct,scheme_name,fund_house,is_anomaly
+100033,-4.88,6.87,12.29,0.6773,19.274,-1.9611,-23.4973,0.0079,0.8,Mirae Asset Large Cap Fund - Direct - Growth,Mirae Asset MF,False
+100356,86.2,36.6,24.6,1.201,19.2384,-1.8993,-21.8061,-0.0363,1.17,Nippon India Small Cap Fund - Direct - Growth,Nippon India MF,False
+101305,11.75,9.54,15.96,0.8558,18.7672,-1.842,-24.6201,0.0023,0.62,HDFC Mid-Cap Opportunities - Direct - Growth,HDFC Mutual Fund,False
+101539,-14.79,2.56,0.92,0.1407,18.6171,-1.8834,-35.194,0.0412,0.87,UTI Mastershare - Direct Plan - Growth,UTI Mutual Fund,False
+103504,9.67,21.78,24.84,1.2367,18.7569,-1.883,-28.1363,0.0005,1.1,SBI Small Cap Fund - Direct Plan - Growth,SBI Mutual Fund,False
+107494,5.0,24.29,21.35,1.0514,19.6154,-1.8907,-18.9153,-0.0115,1.0,HDFC Balanced Advantage Fund - Direct - Growth,HDFC Mutual Fund,False
+108005,7.49,-2.59,30.92,1.4538,19.1705,-1.8637,-36.8947,-0.0047,0.48,ICICI Pru Equity & Debt Fund - Direct - Growth,ICICI Prudential MF,False
+108467,7.41,-6.47,-5.85,-0.2045,19.3403,-2.0195,-37.8342,-0.0228,0.36,DSP Top 100 Equity Fund - Direct Plan - Growth,DSP Mutual Fund,False
+110478,5.17,10.88,6.74,0.4271,18.9761,-2.0329,-23.0556,0.0043,0.72,SBI Magnum Gilt Fund - Direct Plan - Growth,SBI Mutual Fund,False
+112090,-9.26,-7.17,2.63,0.2266,19.2609,-1.9144,-51.1114,-0.0017,1.04,Franklin India Bluechip Fund - Direct - Growth,Franklin Templeton,False
+116230,0.51,24.7,14.12,0.7675,18.9752,-1.919,-28.6022,-0.0375,0.91,HDFC Liquid Fund - Direct Plan - Growth,HDFC Mutual Fund,False
+118632,9.98,-5.72,-0.01,0.0941,18.9459,-1.9418,-41.9471,0.0112,1.04,Nippon India Large Cap Fund - Direct Plan - Growth,Nippon India MF,False
+118701,37.53,37.12,24.24,1.2296,18.4366,-1.791,-16.1798,-0.0045,0.34,HDFC Corporate Bond Fund - Direct - Growth,HDFC Mutual Fund,False
+119092,25.13,27.86,31.2,1.4363,19.6098,-1.9315,-21.8701,0.0242,0.7,Axis Bluechip Fund - Direct Plan - Growth,Axis Mutual Fund,False
+119551,34.16,6.96,-4.67,-0.1415,19.3693,-2.0923,-61.0748,-0.0273,1.13,SBI Bluechip Fund - Direct Plan - Growth,SBI Mutual Fund,False
+119597,44.12,33.3,26.1,1.2641,19.1794,-1.9713,-26.2475,-0.0471,0.44,Axis Liquid Fund - Direct Plan - Growth,Axis Mutual Fund,False
+120503,-15.74,4.52,13.26,0.7308,18.899,-1.8725,-27.8317,0.0302,0.88,ICICI Pru Bluechip Fund - Direct Plan - Growth,ICICI Prudential MF,False
+120841,-22.24,-8.3,-1.47,0.0169,18.6967,-1.8319,-44.6807,-0.0581,0.5,Kotak Bluechip Fund - Direct Plan - Growth,Kotak Mahindra MF,False
+125497,-10.78,-0.66,-0.84,0.0529,19.095,-1.9896,-30.4222,-0.0187,0.63,HDFC Top 100 Fund - Direct Plan - Growth,HDFC Mutual Fund,False
+130503,11.86,18.69,13.08,0.7087,19.4154,-2.0134,-31.1244,0.0438,0.98,Parag Parikh Flexi Cap Fund - Direct - Growth,PPFAS MF,False
